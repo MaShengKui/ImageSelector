@@ -2,8 +2,8 @@
 //  ImageSelectorUITests.m
 //  ImageSelectorUITests
 //
-//  Created by msk on 16/6/24.
-//  Copyright © 2016年 msk. All rights reserved.
+//  Created by mask on 16/6/24.
+//  Copyright © 2016年 mask. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4177F43025026BBB00EE8826 /* VPImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4177F42C25026BBB00EE8826 /* VPImageCropperViewController.m */; };
+		4177F43125026BBB00EE8826 /* UIViewControllerImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4177F42F25026BBB00EE8826 /* UIViewControllerImageCropper.m */; };
 		66CF3C2A1D1CD226007E5FE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CF3C291D1CD226007E5FE3 /* main.m */; };
 		66CF3C2D1D1CD226007E5FE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CF3C2C1D1CD226007E5FE3 /* AppDelegate.m */; };
 		66CF3C351D1CD226007E5FE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CF3C341D1CD226007E5FE3 /* Assets.xcassets */; };
 		66CF3C381D1CD226007E5FE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CF3C361D1CD226007E5FE3 /* LaunchScreen.storyboard */; };
 		66CF3C431D1CD226007E5FE3 /* ImageSelectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CF3C421D1CD226007E5FE3 /* ImageSelectorTests.m */; };
 		66CF3C4E1D1CD226007E5FE3 /* ImageSelectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CF3C4D1D1CD226007E5FE3 /* ImageSelectorUITests.m */; };
-		66CF3C5E1D1CD7B2007E5FE3 /* UIViewControllerImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CF3C5D1D1CD7B2007E5FE3 /* UIViewControllerImageCropper.m */; };
 		66CF3C6C1D1CD88D007E5FE3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CF3C6A1D1CD88D007E5FE3 /* MainViewController.m */; };
 		66CF3C6D1D1CD88D007E5FE3 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66CF3C6B1D1CD88D007E5FE3 /* MainViewController.xib */; };
-		66CF3C701D1CDE12007E5FE3 /* VPImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CF3C6F1D1CDE12007E5FE3 /* VPImageCropperViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4177F42C25026BBB00EE8826 /* VPImageCropperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPImageCropperViewController.m; sourceTree = "<group>"; };
+		4177F42D25026BBB00EE8826 /* UIViewControllerImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerImageCropper.h; sourceTree = "<group>"; };
+		4177F42E25026BBB00EE8826 /* VPImageCropperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPImageCropperViewController.h; sourceTree = "<group>"; };
+		4177F42F25026BBB00EE8826 /* UIViewControllerImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerImageCropper.m; sourceTree = "<group>"; };
 		66CF3C251D1CD226007E5FE3 /* ImageSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CF3C291D1CD226007E5FE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66CF3C2B1D1CD226007E5FE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,13 +54,9 @@
 		66CF3C491D1CD226007E5FE3 /* ImageSelectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageSelectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CF3C4D1D1CD226007E5FE3 /* ImageSelectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageSelectorUITests.m; sourceTree = "<group>"; };
 		66CF3C4F1D1CD226007E5FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66CF3C5C1D1CD7B2007E5FE3 /* UIViewControllerImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerImageCropper.h; sourceTree = "<group>"; };
-		66CF3C5D1D1CD7B2007E5FE3 /* UIViewControllerImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerImageCropper.m; sourceTree = "<group>"; };
 		66CF3C691D1CD88D007E5FE3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		66CF3C6A1D1CD88D007E5FE3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		66CF3C6B1D1CD88D007E5FE3 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		66CF3C6E1D1CDE12007E5FE3 /* VPImageCropperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPImageCropperViewController.h; sourceTree = "<group>"; };
-		66CF3C6F1D1CDE12007E5FE3 /* VPImageCropperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPImageCropperViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4177F42B25026BBB00EE8826 /* ImageSelector */ = {
+			isa = PBXGroup;
+			children = (
+				4177F42C25026BBB00EE8826 /* VPImageCropperViewController.m */,
+				4177F42D25026BBB00EE8826 /* UIViewControllerImageCropper.h */,
+				4177F42E25026BBB00EE8826 /* VPImageCropperViewController.h */,
+				4177F42F25026BBB00EE8826 /* UIViewControllerImageCropper.m */,
+			);
+			path = ImageSelector;
+			sourceTree = "<group>";
+		};
 		66CF3C1C1D1CD226007E5FE3 = {
 			isa = PBXGroup;
 			children = (
@@ -107,7 +118,7 @@
 		66CF3C271D1CD226007E5FE3 /* ImageSelector */ = {
 			isa = PBXGroup;
 			children = (
-				66CF3C5B1D1CD72D007E5FE3 /* Tool */,
+				4177F42B25026BBB00EE8826 /* ImageSelector */,
 				66CF3C2B1D1CD226007E5FE3 /* AppDelegate.h */,
 				66CF3C2C1D1CD226007E5FE3 /* AppDelegate.m */,
 				66CF3C691D1CD88D007E5FE3 /* MainViewController.h */,
@@ -145,17 +156,6 @@
 				66CF3C4F1D1CD226007E5FE3 /* Info.plist */,
 			);
 			path = ImageSelectorUITests;
-			sourceTree = "<group>";
-		};
-		66CF3C5B1D1CD72D007E5FE3 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				66CF3C6E1D1CDE12007E5FE3 /* VPImageCropperViewController.h */,
-				66CF3C6F1D1CDE12007E5FE3 /* VPImageCropperViewController.m */,
-				66CF3C5C1D1CD7B2007E5FE3 /* UIViewControllerImageCropper.h */,
-				66CF3C5D1D1CD7B2007E5FE3 /* UIViewControllerImageCropper.m */,
-			);
-			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +241,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -288,9 +289,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66CF3C5E1D1CD7B2007E5FE3 /* UIViewControllerImageCropper.m in Sources */,
+				4177F43025026BBB00EE8826 /* VPImageCropperViewController.m in Sources */,
 				66CF3C6C1D1CD88D007E5FE3 /* MainViewController.m in Sources */,
-				66CF3C701D1CDE12007E5FE3 /* VPImageCropperViewController.m in Sources */,
+				4177F43125026BBB00EE8826 /* UIViewControllerImageCropper.m in Sources */,
 				66CF3C2D1D1CD226007E5FE3 /* AppDelegate.m in Sources */,
 				66CF3C2A1D1CD226007E5FE3 /* main.m in Sources */,
 			);
@@ -510,6 +511,7 @@
 				66CF3C541D1CD226007E5FE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66CF3C551D1CD226007E5FE3 /* Build configuration list for PBXNativeTarget "ImageSelectorTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +520,7 @@
 				66CF3C571D1CD226007E5FE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66CF3C581D1CD226007E5FE3 /* Build configuration list for PBXNativeTarget "ImageSelectorUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +529,7 @@
 				66CF3C5A1D1CD226007E5FE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

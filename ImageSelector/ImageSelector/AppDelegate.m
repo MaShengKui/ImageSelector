@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  ImageSelector
 //
-//  Created by msk on 16/6/24.
-//  Copyright © 2016年 msk. All rights reserved.
+//  Created by mask on 16/6/24.
+//  Copyright © 2016年 mask. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -14,13 +14,15 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    self.window=[[UIWindow alloc] init];
-    MainViewController *mainVC=[[MainViewController alloc] init];
-    self.window.rootViewController=mainVC;
+    
+    self.window = [[UIWindow alloc] init];
+    
+    MainViewController *mainVC = [[MainViewController alloc] init];
+    self.window.rootViewController = mainVC;
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
